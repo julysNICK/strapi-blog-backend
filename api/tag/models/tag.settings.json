@@ -18,6 +18,10 @@
     "slug": {
       "type": "uid",
       "targetField": "displayName"
+    },
+    "posts": {
+      "via": "tags",
+      "collection": "post"
     }
   }
 }
