@@ -1,4 +1,5 @@
 package-lock.json
+
 ############################
 # OS X
 ############################
@@ -113,4 +114,5 @@ exports
 *.cache
 build
 .strapi-updater.json
-!strapi-blog-backend/*
+
+!ckeditor5-custom/*

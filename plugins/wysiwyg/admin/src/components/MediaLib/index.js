@@ -55,8 +55,8 @@ const MediaLib = ({ isOpen, onChange, onToggle }) => {
 
 MediaLib.defaultProps = {
   isOpen: false,
-  onChange: () => { },
-  onToggle: () => { },
+  onChange: () => {},
+  onToggle: () => {},
 };
 
 MediaLib.propTypes = {

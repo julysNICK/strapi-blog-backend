@@ -9,7 +9,6 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "displayName": {
       "type": "string",
@@ -17,7 +16,8 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "displayName"
+      "targetField": "displayName",
+      "required": true
     },
     "posts": {
       "via": "tags",

@@ -2,14 +2,14 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "post"
+    "name": "post",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string",
@@ -27,8 +27,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "required": true
     },
     "excerpt": {
       "type": "text",

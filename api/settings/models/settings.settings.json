@@ -9,7 +9,6 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "blogName": {
       "type": "string",
@@ -26,8 +25,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "required": false
     },
     "menuLink": {
       "type": "component",

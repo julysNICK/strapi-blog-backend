@@ -9,7 +9,6 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "displayName": {
       "type": "string",
